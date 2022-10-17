@@ -18,7 +18,7 @@ function Navbar() {
           <li><NavLink exact to="/Services" activeClassName="active">Services</NavLink></li>
           <li><NavLink exact to="/About" activeClassName="active">About</NavLink></li>
           <li><NavLink exact to="/Portfolio" activeClassName="active">Portfolio</NavLink></li>
-          <li><NavLink exact to="/Blog" activeClassName="active">Blog</NavLink></li>
+          {/*<li><NavLink exact to="/Blog" activeClassName="active">Blog</NavLink></li>*/}
           <li><NavLink exact to="/Contact" activeClassName="active">Contact</NavLink></li>
         </ul>
       </nav>

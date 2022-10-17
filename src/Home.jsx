@@ -2,7 +2,7 @@ import React from "react";
 import Banner from './Components/Banner';
 import Stats from './assets/images/left_stats.svg';
 import Work from './Components/Work';
-import ContactBanner from "./Components/ConatctBanner";
+import ContactCard from "./Components/ConatctCard";
 import Footer from './Components/Footer';
 import { MainService, TeamCards } from "./utils/Data";
 import { NktService, NktTeam } from "./Components/Cards";
@@ -121,7 +121,7 @@ const Home = () => {
 
                 <div className="nkt-10"></div>
 
-                <ContactBanner/>
+                <ContactCard/>
                 
                 <div className="nkt-5"></div>
 

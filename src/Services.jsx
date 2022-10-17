@@ -1,5 +1,5 @@
 import React from "react";
-
+import ServiceBanner from "./Components/Service_Banner";
 import Footer from "./Components/Footer";
 import { BrandServices, PrintingServices, SocialMediaServices, WebServices } from "./Components/Cards";
 import { BrandingIdentity, PrintDesign, SocialMedia, WebUi } from "./utils/Data";
@@ -7,6 +7,8 @@ import { BrandingIdentity, PrintDesign, SocialMedia, WebUi } from "./utils/Data"
 const Services = () => {
     return (
         <>
+<ServiceBanner/>
+<div className="nkt-5"></div>
             <div className="container">
 
                 {/*identity Brand */}

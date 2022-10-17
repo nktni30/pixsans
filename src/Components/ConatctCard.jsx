@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const ContactBanner=()=>{
+const ContactCard=()=>{
     return(
         <>
         <div className="row mb-5">
@@ -17,15 +17,12 @@ const ContactBanner=()=>{
                             <div className="col-lg-6 d-flex align-items-center justify-content-md-end justify-content-center">
                                 <a className="nkt-btn-white" href="#">Contact Us</a>
                             </div>
-                        
                     </div>
-                    </div>
-                    
-                    
+                    </div>  
             </div>
         </div>
         </>
     )
 }
 
-export default ContactBanner;
+export default ContactCard;

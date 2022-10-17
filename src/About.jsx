@@ -1,9 +1,12 @@
 import React from "react";
+import AboutBanner from "./Components/AboutBanner";
+import NktFooter from "./Components/Footer";
 
 const About = () => {
     return (
         <>
-            <h1>This is About page</h1>
+        <AboutBanner/>
+            <NktFooter/>
         </>
     )
 }
