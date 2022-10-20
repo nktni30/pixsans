@@ -1,7 +1,7 @@
 import React from "react";
 import Banner from './Components/Banner';
 import Stats from './assets/images/left_stats.svg';
-import Work from './Components/Work';
+import Work from './Components/WorkProcess';
 import ContactCard from "./Components/ConatctCard";
 import Footer from './Components/Footer';
 import { MainService, TeamCards } from "./utils/Data";

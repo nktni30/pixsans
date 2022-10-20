@@ -53,7 +53,7 @@ const NktFooter = () => {
                         <h5 className="text-white text-center text-md-start text-lg-start">Connect with us</h5>
                         <ul class="nav flex-column text-center text-md-start text-lg-start">
                             <li class="nav-item mb-2"><a href="#" class="p-0 footer-link"><FaPhoneAlt/> +91 8709194910</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="p-0 footer-link"><FaEnvelope/> info@nktcreations.com</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="p-0 footer-link"><FaEnvelope/> info@pixsans.com</a></li>
                             <div class="d-flex mb-2 justify-content-between">
                                 <a href="#" class="footer-icon"><FaInstagram/></a>
                                 <a href="#" class="footer-icon"><FaBehance/></a>
@@ -70,7 +70,7 @@ const NktFooter = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-sm-6 mx-auto text-center">
-                        <p className="">Copyright 2022 <a className="text-footer" href="">nktcreations.com</a> | Built by <a className="text-footer" href="">yourbugfixers.com</a></p>
+                        <p className="">Copyright 2022 <a className="text-footer" href="">pixsnas.com</a> | Built by <a className="text-footer" href="">yourbugfixers.com</a></p>
                     </div>
                 </div>
             </div>
