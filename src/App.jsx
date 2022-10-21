@@ -3,8 +3,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import Home from "./Home";
 import Services from "./Services";
 import About from "./About";
-import Works from "./Works";
-import Blog from "./Blog";
+import PixWorks from "./PixWorks";
 import Contact from "./Contact";
 import Navbar from "./Components/Navbar";
 
@@ -17,7 +16,7 @@ const App = () => {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/Services" element={<Services />} />
         <Route exact path="/About" element={<About />} />
-        <Route exact path="/Works" element={<Works />} />
+        <Route exact path="/PixWorks" element={<PixWorks />} />
           {/*<Route exact path="/Blog" element={<Blog />} />*/}
         <Route exact path="/Contact" element={<Contact />} />
         <Route render={() => <Navigate to="/" />} />

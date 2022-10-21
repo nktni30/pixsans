@@ -2,13 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap');
 
-@import '~mdb-ui-kit/css/mdb.min.css';
 
 body {
   font-family: 'Poppins', sans-serif !important;
   background-image: url('../images/page_bg.png');
   background-size: contain;
-  background-color: #f8f8f869 !important;
   background-repeat: repeat-y;
 }
 
@@ -255,15 +253,15 @@ body {
 {
   background-color: white;
   transition: all .3s;
+  box-shadow: 10px 5px 50px #f5f5f5;
 }
 
 nav img.logo {
-  margin: 20px 30px;
+  margin: 20px 0;
 }
 
 nav ul {
   float: right;
-  margin-right: 20px;
 }
 
 nav ul li {
@@ -277,15 +275,12 @@ nav ul li a {
   font-size: 17px;
   padding: 20px 0px;
   margin: 0px 20px;
-  border-radius: 3px;
   text-decoration: none;
   position: relative;
 }
 
-nav a.active {
-
-  color: #FDAE38;
-
+nav ul li a.active{
+color:#4FA3A5;
 }
 
 nav ul li a:hover {
@@ -641,36 +636,3 @@ nav ul li a:hover::before {
 
 /*Gallery*/
 
-.cross-btn{
-  padding: 5px 8px ;
-  border: none;
-  font-size: 20px;
-  background-color: #fff;
-  top:30px;
-  margin: 10px 10px;
-  z-index: 999;
-  color: #264248;
-  overflow: hidden;
-  border-radius: 50%;
-}
-
-.lr-btn{
-  display: block;
-  border: none;
-  font-size: 40px;
-  color: rgb(189, 189, 189);
-  transition: all .3s;
-}
-
-.lr-btn:hover{
-  color: white;
-}
-
-.grd-item {
-    width: 200px;
-    float: left;
-}
-.grid-item img {
-    display: block;
-    width: 100%;
-}
