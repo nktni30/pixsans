@@ -70,7 +70,7 @@ const NktFooter = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-sm-6 mx-auto text-center">
-                        <p className="">Copyright 2022 <a className="text-footer" href="">pixsnas.com</a> | Built by <a className="text-footer" href="">yourbugfixers.com</a></p>
+                        <p className="">Copyright 2022 <a className="text-footer" href="">pixsans.com</a> | Built by <a className="text-footer" href="">yourbugfixers.com</a></p>
                     </div>
                 </div>
             </div>

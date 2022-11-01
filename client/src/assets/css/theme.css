@@ -603,6 +603,10 @@ nav ul li a:hover::before {
   background-color: rgb(239, 239, 239);
 }
 
+.nkt-form:focus{
+  background-color: rgb(255, 247, 235);
+}
+
 .contact-card {
   border: none !important;
   border-radius: 25px;
@@ -618,10 +622,51 @@ nav ul li a:hover::before {
   background-color: #4FA3A5;
   padding: 10px 40px;
   color: white;
+  transition: all .3s;
+}
+
+.nkt-btn-submit:hover {
+background-color: #FDAE38;
+box-shadow: #FFEFD8 0px 10px 50px;
+
 }
 
 .nkt-txt-area {
   height: 15vh;
+}
+
+.text-err{
+  color: #fd8038;
+  font-size: small;
+  transform: translate(0) ;
+  overflow: none;
+  margin-bottom: none;
+}
+
+.popup-card{
+  width:400px;
+  height:400px !important;
+  margin: 0 auto;
+}
+
+.popup-icon{
+  color: #06ce63;
+  font-size: 50px;
+}
+
+.success-text{
+  color: #06ce63;
+  font-size: larger;
+  font-weight: 600;
+}
+
+.popup-close-btn{
+  display: inline-block !important;
+  border: none;
+  color: red;
+  font-size: 25px;
+  background-color: none;
+  padding: none !important;
 }
 
 /*Sidebar*/
@@ -635,4 +680,3 @@ nav ul li a:hover::before {
 }
 
 /*Gallery*/
-
