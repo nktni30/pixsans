@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {FaInstagram, FaYoutube, FaBehance, FaFacebookF, FaEnvelope, FaPhoneAlt} from 'react-icons/fa'
 
 
@@ -24,18 +25,18 @@ const NktFooter = () => {
                     <div class="col-sm-3 mb-3">
                         <h5 className="text-white text-center text-md-start text-lg-start">Resources</h5>
                         <ul class="nav flex-column text-center text-md-start text-lg-start">
-                            <li class="nav-item mb-2"><a href="#" class="p-0 footer-link">Pricing</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="p-0 footer-link">Service</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="p-0 footer-link">Contact</a></li>
+                            <li class="nav-item mb-2"><Link to={"/Contact"} class="p-0 footer-link">Pricing</Link></li>
+                            <li class="nav-item mb-2"><Link to={"/Service"} class="p-0 footer-link">Service</Link></li>
+                            <li class="nav-item mb-2"><Link to={"/Contact"} class="p-0 footer-link">Contact</Link></li>
                         </ul>
                     </div>
 
                     <div class="col-sm-3 mb-3">
                         <h5 className="text-white text-center text-md-start text-lg-start">Community</h5>
                         <ul class="nav flex-column text-center text-md-start text-lg-start">
-                            <li class="nav-item mb-2"><a href="#" class="p-0 footer-link">About</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="p-0 footer-link">Blog</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="p-0 footer-link">Portfolio</a></li>
+                            <li class="nav-item mb-2"><Link to={"/About"} class="p-0 footer-link">About</Link></li>
+                            <li class="nav-item mb-2"><Link to={"/Blog"} class="p-0 footer-link">Blog</Link></li>
+                            <li class="nav-item mb-2"><Link to={"/Works"} class="p-0 footer-link">Works</Link></li>
                             
                         </ul>
                     </div>
@@ -43,22 +44,22 @@ const NktFooter = () => {
                     <div class="col-sm-3 mb-3">
                         <h5 className="text-white text-center text-md-start text-lg-start">Information</h5>
                         <ul class="nav flex-column text-center text-md-start text-lg-start">
-                            <li class="nav-item mb-2"><a href="#" class="p-0 footer-link">Terms and Condition</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="p-0 footer-link">Privacy Policy</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="p-0 footer-link">Cookie Policy</a></li>
+                            <li class="nav-item mb-2"><Link to={"/TnC"} class="p-0 footer-link">Terms and Condition</Link></li>
+                            <li class="nav-item mb-2"><Link to={"/PrivacyPolicy"} class="p-0 footer-link">Privacy Policy</Link></li>
+                            <li class="nav-item mb-2"><Link to={"/CookiePolicy"} class="p-0 footer-link">Cookie Policy</Link></li>
                         </ul>
                     </div>
 
                     <div class="col-sm-3 mb-3">
                         <h5 className="text-white text-center text-md-start text-lg-start">Connect with us</h5>
                         <ul class="nav flex-column text-center text-md-start text-lg-start">
-                            <li class="nav-item mb-2"><a href="#" class="p-0 footer-link"><FaPhoneAlt/> +91 8709194910</a></li>
-                            <li class="nav-item mb-2"><a href="#" class="p-0 footer-link"><FaEnvelope/> info@pixsans.com</a></li>
+                            <li class="nav-item mb-2"><a href="tel:+918709194910" class="p-0 footer-link"><FaPhoneAlt/> +91 8709194910</a></li>
+                            <li class="nav-item mb-2"><a href="mailto:info@pixsans.com" class="p-0 footer-link"><FaEnvelope/> info@pixsans.com</a></li>
                             <div class="d-flex mb-2 justify-content-between">
-                                <a href="#" class="footer-icon"><FaInstagram/></a>
-                                <a href="#" class="footer-icon"><FaBehance/></a>
+                                <a href="https://www.instagram.com/pix_sans/" class="footer-icon"><FaInstagram/></a>
+                                <a href="https://www.behance.net/nitishkumar388" class="footer-icon"><FaBehance/></a>
                                 <a href="#" class="footer-icon"><FaYoutube/></a>
-                                <a href="#" class="footer-icon"><FaFacebookF/></a>
+                                <a href="https://www.facebook.com/pixsans22/" class="footer-icon"><FaFacebookF/></a>
                             </div>
                         </ul>
                     </div>

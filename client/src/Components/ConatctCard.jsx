@@ -5,7 +5,9 @@ const ContactCard=()=>{
     return(
         <>
         <div className="row mb-5">
-            <div className="col-lg-12">
+            <div className="col-lg-12"
+            data-aos="fade-up"
+            data-aos-duration="3000">
                     
                     <div className="ct-ban-img p-5">
                     

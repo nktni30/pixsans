@@ -6,8 +6,8 @@
 body {
   font-family: 'Poppins', sans-serif !important;
   background-image: url('../images/page_bg.png');
-  background-size: contain;
-  background-repeat: repeat-y;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 
@@ -242,18 +242,17 @@ body {
 */
 /*<-------------------- Navbar css -------------------->*/
 
-.nav-header{
+.nav-header {
   position: sticky;
   top: 0;
   z-index: 4;
   height: 70px;
 }
 
-.nav-header-bg
-{
+.nav-header-bg {
   background-color: white;
   transition: all .3s;
-  box-shadow: 10px 5px 50px #f5f5f5;
+  box-shadow: 10px 5px 50px #dcdcdc4f;
 }
 
 nav img.logo {
@@ -279,8 +278,8 @@ nav ul li a {
   position: relative;
 }
 
-nav ul li a.active{
-color:#4FA3A5;
+nav ul li a.active {
+  color: #4FA3A5;
 }
 
 nav ul li a:hover {
@@ -498,7 +497,7 @@ nav ul li a:hover::before {
 
   body {
     font-size: 1rem !important;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
   }
 
   .nkt-10 {
@@ -603,7 +602,7 @@ nav ul li a:hover::before {
   background-color: rgb(239, 239, 239);
 }
 
-.nkt-form:focus{
+.nkt-form:focus {
   background-color: rgb(255, 247, 235);
 }
 
@@ -626,8 +625,8 @@ nav ul li a:hover::before {
 }
 
 .nkt-btn-submit:hover {
-background-color: #FDAE38;
-box-shadow: #FFEFD8 0px 10px 50px;
+  background-color: #FDAE38;
+  box-shadow: #FFEFD8 0px 10px 50px;
 
 }
 
@@ -635,32 +634,32 @@ box-shadow: #FFEFD8 0px 10px 50px;
   height: 15vh;
 }
 
-.text-err{
+.text-err {
   color: #fd8038;
   font-size: small;
-  transform: translate(0) ;
+  transform: translate(0);
   overflow: none;
   margin-bottom: none;
 }
 
-.popup-card{
-  width:400px;
-  height:400px !important;
+.popup-card {
+  width: 400px;
+  height: 400px !important;
   margin: 0 auto;
 }
 
-.popup-icon{
+.popup-icon {
   color: #06ce63;
   font-size: 50px;
 }
 
-.success-text{
+.success-text {
   color: #06ce63;
   font-size: larger;
   font-weight: 600;
 }
 
-.popup-close-btn{
+.popup-close-btn {
   display: inline-block !important;
   border: none;
   color: red;
@@ -680,3 +679,18 @@ box-shadow: #FFEFD8 0px 10px 50px;
 }
 
 /*Gallery*/
+
+
+
+/* Error Page */
+
+.notfound {
+  width: 100%;
+  height: 100vh;
+}
+
+.err-img{
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+}

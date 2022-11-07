@@ -46,7 +46,9 @@ export function NktTeam({img, title, desg}){
 export function BrandServices({img, title}){
   return(
     <div className="col-sm-4 p-4 mb-3">
-    <div className="card nkt-card">
+    <div className="card nkt-card"
+    data-aos="fade-up"
+    data-aos-duration="3000">
       <div className="serv-card">
     <img className="card-img-top serv-img" src={img}/>
     </div>
@@ -63,7 +65,9 @@ export function BrandServices({img, title}){
 export function WebServices({img, title}){
   return(
     <div className="col-sm-4 p-4 mb-2">
-    <div className="card nkt-card">
+    <div className="card nkt-card"
+    data-aos="fade-up"
+    data-aos-duration="3000">
     <div className="serv-card">
     <img className="card-img-top serv-img" src={img}/>
     </div>
@@ -80,7 +84,9 @@ export function WebServices({img, title}){
 export function SocialMediaServices({img, title}){
   return(
     <div className="col-sm-4 p-4 mb-2">
-    <div className="card nkt-card">
+    <div className="card nkt-card"
+    data-aos="fade-up"
+    data-aos-duration="3000">
     <div className="serv-card">
     <img className="card-img-top serv-img" src={img}/>
     </div>
@@ -98,7 +104,9 @@ export function SocialMediaServices({img, title}){
 export function PrintingServices({img, title}){
   return(
     <div className="col-sm-4 p-4 mb-2">
-    <div className="card nkt-card">
+    <div className="card nkt-card"
+    data-aos="fade-up"
+    data-aos-duration="3000">
     <div className="serv-card">
     <img className="card-img-top serv-img" src={img}/>
     </div>
