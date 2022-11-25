@@ -25,7 +25,7 @@ function Navbar() {
         <div className="checkbtn" onClick={handleclick}>
           {click ? <FaTimes /> : <FaBars />}
         </div>
-        <img className="logo" src={process.env.PUBLIC_URL + '/logo_dark.png'} />
+        <img className="logo" src={process.env.PUBLIC_URL + '/logo1.svg'} />
         <ul className={click ? "mobile-menu" : null}>
           <li><NavLink exact to="/">Home</NavLink></li>
           <li><NavLink exact to="/Services" >Services</NavLink></li>

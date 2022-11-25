@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 const ContactCard=()=>{
@@ -17,7 +18,7 @@ const ContactCard=()=>{
                             <p className="nkt-ct-p mt-5">Get in touch with us<br/>We are here for you</p>
                             </div>
                             <div className="col-lg-6 d-flex align-items-center justify-content-md-end justify-content-center">
-                                <a className="nkt-btn-white" href="#">Contact Us</a>
+                                <Link className="nkt-btn-white" to={"/Contact"}>Contact Us</Link>
                             </div>
                     </div>
                     </div>  

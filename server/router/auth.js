@@ -6,10 +6,36 @@ const jwt = require('jsonwebtoken');
 
 require('../db/conn');
 const ContactMessage = require('../models/contactSchema');
+const Subscribers = require('../models/subscribeSchema');
 const Admin = require('../models/adminSchema');
 
 serverRouter.get('/', (req, res) => {
     res.send(`hello world from router js`);
+});
+
+//Subscribe Email
+
+serverRouter.post('/subscribe', async (req, res)=>{
+    const{email}= req.body;
+
+    if (!email) {
+        return res.status(422).json({error: "Its Required"})
+    }
+
+    try{
+        const alreadySubscribed = await Subscribers.findOne({email: email});
+
+        if (alreadySubscribed){
+            return res.status(422).json({error: "You are our existing subscriber"});
+        }
+
+        const PixSubscriber = new Subscribers({email});
+
+        await PixSubscriber.save();
+        res.status(201).json({ message: "Subscribed Successfully"});
+    } catch(err){
+        console.log(err);
+    }
 });
 
 //Contact-route

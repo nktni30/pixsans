@@ -2,7 +2,7 @@ import React from "react";
 import { useFormik } from "formik";
 import ContactHeader from '../Components/ContactHeader';
 import Footer from '../Components/Footer';
-import { contactMessageScehma } from "../schemas/Contact";
+import { contactMessageScehma } from "../schemas/Schemas";
 import Swal from "sweetalert2";
 
 

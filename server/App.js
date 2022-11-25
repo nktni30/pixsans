@@ -40,6 +40,10 @@ app.get('/admin_login', (req, res) => {
 
 app.get('/admin_register', (req, res)=>{
     res.send(`hello from admin register`)
+});
+
+app.get('/subscribe', (req, res)=>{
+    res.send(`hello from subscribe`)
 })
 
 

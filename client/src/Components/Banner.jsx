@@ -21,7 +21,7 @@ const Banner = () => {
                                 
                         </div>
                         <div className="row mt-md-5 mt-2">
-                            <div className="col-md-12 text-center text-md-start" data-aos="fade-right" data-aos-duration="3000">
+                            <div className="col-md-12 text-center text-md-start" data-aos="fade-right" data-aos-duration="2000">
                                 <a href="#" className="nkt-btn">Get Started</a>
                             </div>
                         </div>

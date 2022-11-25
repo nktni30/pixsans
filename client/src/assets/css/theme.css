@@ -256,7 +256,9 @@ body {
 }
 
 nav img.logo {
-  margin: 20px 0;
+  margin: 30px 0;
+  height: 15px;
+  width: auto;
 }
 
 nav ul {
@@ -354,11 +356,17 @@ nav ul li a:hover::before {
 
 .subs-btn {
   padding: 15px 20px;
-  background-color: #FDAE38;
+  background-color: #4FA3A5;
   border-radius: 0 33px 33px 0;
   text-decoration: none;
   color: #fff;
   display: inline-block;
+  border: none;
+  transition: .3s ease;
+}
+
+.subs-btn:hover{
+  background-color: #FDAE38;
 }
 
 
@@ -543,6 +551,8 @@ nav ul li a:hover::before {
 
   nav img.logo {
     padding: 0px 0px;
+    width: 100px;
+    height: auto;
   }
 
   nav ul li a {
@@ -551,6 +561,7 @@ nav ul li a:hover::before {
 
   .checkbtn {
     display: block;
+
   }
 
   nav ul {
