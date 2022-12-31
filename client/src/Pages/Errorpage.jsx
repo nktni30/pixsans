@@ -16,8 +16,6 @@ const Errorpage = () => {
           </div>
         </div>
         </div>
-        
-
     </div>
     </>
   )

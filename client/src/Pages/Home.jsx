@@ -109,7 +109,7 @@ const Home = () => {
 
                 {/* Team Section */}
 
-                <div className="row mt-5">
+                {/* <div className="row mt-5">
                     <div className="col-lg-6 mx-auto"
                     data-aos="fade-up"
                     data-aos-duration="2000">
@@ -122,17 +122,17 @@ const Home = () => {
                 
                 <div className="row justify-content-between"
                 data-aos="fade-up"
-                data-aos-duration="3000">
+                data-aos-duration="3000"> */}
                     {/*Team blocks */}
-                    {TeamCards && TeamCards.map((item)=>
+                    {/* {TeamCards && TeamCards.map((item)=> */}
 
-                    <NktTeam
-                    img={item.img}
-                    title={item.title}
-                    desg={item.desg}
-                    />
-                    )}
-                </div>
+                    {/* <NktTeam */}
+                    {/* // img={item.img} */}
+                    {/* // title={item.title} */}
+                    {/* // desg={item.desg} */}
+                    {/* /> */}
+                    {/* )} */}
+                {/* </div> */}
                 
 
                 <div className="nkt-10"></div>
