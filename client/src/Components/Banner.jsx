@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import BanImg from '../assets/images/banner_img.svg';
 
 const Banner = () => {
@@ -22,7 +23,7 @@ const Banner = () => {
                         </div>
                         <div className="row mt-md-5 mt-2">
                             <div className="col-md-12 text-center text-md-start" data-aos="fade-right" data-aos-duration="2000">
-                                <a href="#" className="nkt-btn">Get Started</a>
+                                <Link to={'/Contact'} className="nkt-btn">Get Started</Link>
                             </div>
                         </div>
                     </div>
